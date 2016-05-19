@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/Users/manavdutta1/Downloads/AutismAssist-master/android-bluetooth-client/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi-v4/engagement.png",
+        "source": "/Users/manavdutta1/Downloads/AutismAssist-master/android-bluetooth-client/app/src/main/res/mipmap-xxxhdpi/engagement.png"
+    },
+    {
+        "merged": "/Users/manavdutta1/Downloads/AutismAssist-master/android-bluetooth-client/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi-v4/ic_people.png",
+        "source": "/Users/manavdutta1/Downloads/AutismAssist-master/android-bluetooth-client/app/src/main/res/mipmap-xxxhdpi/ic_people.png"
+    },
+    {
+        "merged": "/Users/manavdutta1/Downloads/AutismAssist-master/android-bluetooth-client/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi-v4/attention.png",
+        "source": "/Users/manavdutta1/Downloads/AutismAssist-master/android-bluetooth-client/app/src/main/res/mipmap-xxxhdpi/attention.png"
+    }
+]

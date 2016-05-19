@@ -1,0 +1,1 @@
+{"token":"506f3f609399b5b345b8708607f3fc8c9358bdd0686219f30f769d3c00c2e5bf","licensor":"Affectiva Inc.","expires":"2016-04-05","developerId":"achung@gatech.edu","software":"Affdex SDK"}

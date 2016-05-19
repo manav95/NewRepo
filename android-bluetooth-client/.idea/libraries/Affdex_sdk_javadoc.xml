@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Affdex-sdk-javadoc">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/app/libs/Affdex-sdk-javadoc.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

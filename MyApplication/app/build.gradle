@@ -1,0 +1,52 @@
+apply plugin: 'com.android.application'
+
+repositories {
+    jcenter()
+    flatDir {
+        dirs 'prebuilt-libs'
+    }
+}
+
+android {
+    compileSdkVersion 'Google Inc.:Glass Development Kit Preview:19'
+    buildToolsVersion '23.0.2'
+
+    defaultConfig {
+        applicationId "mhacks.autismassist"
+        minSdkVersion 19
+        targetSdkVersion 19
+        versionCode 1
+        versionName "1.0"
+        multiDexEnabled true
+    }
+
+    dexOptions {
+        //you can speed up your builds by turning on incremental dexing
+        incremental = true;
+        //you can specify the heap size for the dex process
+        javaMaxHeapSize "4g"
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_7
+        targetCompatibility JavaVersion.VERSION_1_7
+    }
+    sourceSets {
+        main {
+            jniLibs.srcDirs = ['jniLibs']
+            jni.srcDirs = [] //disable automatic ndk-build
+        }
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile 'com.android.support:support-v4:19.0.0'
+    compile 'com.affectiva.android:affdexsdk:3.0.1'
+    compile files('libs/firebase-client-android-2.5.2.jar')
+}

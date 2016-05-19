@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "/Users/manavdutta1/Downloads/AutismAssist-master/android-bluetooth-client/app/build/intermediates/res/merged/debug/anim/abc_slide_out_top.xml",
+        "source": "/Users/manavdutta1/Downloads/AutismAssist-master/android-bluetooth-client/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/anim/abc_slide_out_top.xml"
+    },
+    {
+        "merged": "/Users/manavdutta1/Downloads/AutismAssist-master/android-bluetooth-client/app/build/intermediates/res/merged/debug/anim/abc_fade_in.xml",
+        "source": "/Users/manavdutta1/Downloads/AutismAssist-master/android-bluetooth-client/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/anim/abc_fade_in.xml"
+    },
+    {
+        "merged": "/Users/manavdutta1/Downloads/AutismAssist-master/android-bluetooth-client/app/build/intermediates/res/merged/debug/anim/abc_slide_out_bottom.xml",
+        "source": "/Users/manavdutta1/Downloads/AutismAssist-master/android-bluetooth-client/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/anim/abc_slide_out_bottom.xml"
+    },
+    {
+        "merged": "/Users/manavdutta1/Downloads/AutismAssist-master/android-bluetooth-client/app/build/intermediates/res/merged/debug/anim/abc_slide_in_bottom.xml",
+        "source": "/Users/manavdutta1/Downloads/AutismAssist-master/android-bluetooth-client/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/anim/abc_slide_in_bottom.xml"
+    },
+    {
+        "merged": "/Users/manavdutta1/Downloads/AutismAssist-master/android-bluetooth-client/app/build/intermediates/res/merged/debug/anim/abc_fade_out.xml",
+        "source": "/Users/manavdutta1/Downloads/AutismAssist-master/android-bluetooth-client/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/anim/abc_fade_out.xml"
+    },
+    {
+        "merged": "/Users/manavdutta1/Downloads/AutismAssist-master/android-bluetooth-client/app/build/intermediates/res/merged/debug/anim/abc_slide_in_top.xml",
+        "source": "/Users/manavdutta1/Downloads/AutismAssist-master/android-bluetooth-client/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/anim/abc_slide_in_top.xml"
+    }
+]

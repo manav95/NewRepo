@@ -1,0 +1,102 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* .idea/
+* .idea/.name
+* .idea/compiler.xml
+* .idea/copyright/
+* .idea/copyright/profiles_settings.xml
+* .idea/encodings.xml
+* .idea/libraries/
+* .idea/libraries/android_support_v4.xml
+* .idea/libraries/dexedLibs.xml
+* .idea/misc.xml
+* .idea/modules.xml
+* .idea/scopes/
+* .idea/scopes/scope_settings.xml
+* .idea/uiDesigner.xml
+* .idea/vcs.xml
+* .idea/workspace.xml
+* android-bluetooth-client.iml
+* ic_launcher-web.png
+* pom.xml.save
+* proguard-project.txt
+* target/
+* target/classes/
+* target/classes/META-INF/
+* target/classes/META-INF/MANIFEST.MF
+* target/classes/META-INF/maven/
+* target/classes/META-INF/maven/transapps/
+* target/classes/META-INF/maven/transapps/g6-bluetooth-client/
+* target/classes/META-INF/maven/transapps/g6-bluetooth-client/.classpath
+* target/classes/META-INF/maven/transapps/g6-bluetooth-client/.project
+* target/classes/META-INF/maven/transapps/g6-bluetooth-client/.settings/
+* target/classes/META-INF/maven/transapps/g6-bluetooth-client/.settings/org.eclipse.core.resources.prefs
+* target/classes/META-INF/maven/transapps/g6-bluetooth-client/.settings/org.eclipse.jdt.core.prefs
+* target/classes/META-INF/maven/transapps/g6-bluetooth-client/.settings/org.eclipse.m2e.core.prefs
+* target/classes/META-INF/maven/transapps/g6-bluetooth-client/pom.properties
+* target/classes/META-INF/maven/transapps/g6-bluetooth-client/pom.xml
+* target/classes/META-INF/maven/transapps/g6-bluetooth-client/target/
+* target/classes/META-INF/maven/transapps/g6-bluetooth-client/target/classes/
+* target/classes/META-INF/maven/transapps/g6-bluetooth-client/target/classes/META-INF/
+* target/classes/META-INF/maven/transapps/g6-bluetooth-client/target/classes/META-INF/MANIFEST.MF
+* target/classes/META-INF/maven/transapps/g6-bluetooth-client/target/classes/META-INF/maven/
+* target/classes/META-INF/maven/transapps/g6-bluetooth-client/target/classes/META-INF/maven/transapps/
+* target/classes/META-INF/maven/transapps/g6-bluetooth-client/target/classes/META-INF/maven/transapps/g6-bluetooth-client/
+* target/classes/META-INF/maven/transapps/g6-bluetooth-client/target/classes/META-INF/maven/transapps/g6-bluetooth-client/pom.properties
+* target/classes/META-INF/maven/transapps/g6-bluetooth-client/target/classes/META-INF/maven/transapps/g6-bluetooth-client/pom.xml
+* target/generated-sources/
+* target/generated-sources/generated-sources.iml
+* target/generated-sources/r/
+* target/generated-sources/r/transapps/
+* target/generated-sources/r/transapps/android_blutooth/
+* target/generated-sources/r/transapps/android_blutooth/BuildConfig.java
+* target/generated-sources/r/transapps/android_blutooth/R.java
+* target/maven-status/
+* target/maven-status/maven-compiler-plugin/
+* target/maven-status/maven-compiler-plugin/compile/
+* target/maven-status/maven-compiler-plugin/compile/default-compile/
+* target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst
+* target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst
+
+Replaced Jars with Dependencies:
+--------------------------------
+The importer recognized the following .jar files as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the .jar file in your project was of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the jar replacement in the import wizard and try again:
+
+android-support-v4.jar => com.android.support:support-v4:18.0.0
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => app/src/main/AndroidManifest.xml
+* res/ => app/src/main/res/
+* src/ => app/src/main/java/
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)
